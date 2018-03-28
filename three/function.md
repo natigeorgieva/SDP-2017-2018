@@ -5,18 +5,6 @@ Task 1.
 
 Task 2.
 
-  A
-  
-  B B
-  
-  C C C
-  
-  D D D D
-  
-  E E E E E
-
-Task 3.
-
 1
 
 1 2
@@ -27,3 +15,17 @@ Task 3.
 
 1 2 3 4 5
 
+
+Task 3.
+
+
+  A
+  
+  B B
+  
+  C C C
+  
+  D D D D
+  
+  E E E E E
+  
