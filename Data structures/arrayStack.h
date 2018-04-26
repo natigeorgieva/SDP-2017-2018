@@ -13,5 +13,5 @@ public:
 	void push(int val); //вкарва елемент "най-отгоре" 
 	void pop(); //изтрива "най-горния"/последния вкаран елемент
 	int top(); //показва "най-горния"/последния вкаран елемент
-	friend std::ostream &operator<< (ostream & output, const arrayStack &other);
+	friend std::ostream &operator<< (ostream &output, const arrayStack &other);
 };
