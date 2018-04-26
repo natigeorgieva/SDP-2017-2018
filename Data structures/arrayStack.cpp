@@ -25,8 +25,10 @@ int arrayStack::size() const {
 };
 
 void arrayStack::push(int val) {
-	if(this->isFull())
+	if(this->isFull()) {
 		cout << "Attempted to push " << val << " to a full stack!\n";
+		exit(1);
+	}
 	else {
 		if(topOfStack == -1)
 			topOfStack++;
@@ -37,6 +39,7 @@ void arrayStack::push(int val) {
 void arrayStack::pop() {
 	if(this->isEmpty()) {
 		cout << "\nStack is empty, can't remove from it!\n";
+		exit(1);
 	} else {
 		topOfStack--;
 	}
@@ -44,7 +47,8 @@ void arrayStack::pop() {
 
 int arrayStack::top() {
 	if(this->isEmpty()) {
-		cout << "\nStack is empty!\n";
+		cout << "\nStack is empty, nothing to display!\n";
+		exit(1);
 	} else {
 		return values[topOfStack - 1];
 	}
