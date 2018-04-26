@@ -46,7 +46,7 @@ int arrayStack::top() {
 	if(this->isEmpty()) {
 		cout << "\nStack is empty!\n";
 	} else {
-		return values[topOfStack - 1];;
+		return values[topOfStack - 1];
 	}
 };
 
