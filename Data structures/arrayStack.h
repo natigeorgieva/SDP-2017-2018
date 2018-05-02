@@ -1,6 +1,6 @@
 class arrayStack {
 private:
-	static int const MAX_SIZE = 5; //максимален размер на стека
+	static int const MAX_SIZE = 64; //максимален размер на стека
 	int topOfStack; //указател към текущия елемент
 	int values[MAX_SIZE]; //масив с данни (СТЕК)
 public:
