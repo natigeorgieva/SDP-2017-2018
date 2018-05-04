@@ -9,11 +9,11 @@ private:
 	int _size;
 public:
 	queue(); //default конструктор
-	queue(const queue &other); //copy конструктор
+	queue(const queue &); //copy конструктор
 	~queue();
 	bool isEmpty() const; //връща дали е празен
 	int size() const; //връща текущия размер
-	void push(int val); //вкарва елемент отпред
+	void push(int); //вкарва елемент отпред
 	void pop(); //изтрива последния вкаран елемент
 	int front(); //показва елементa най-отпред
 	int back(); //показва елемента най-отзад
