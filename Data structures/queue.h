@@ -5,7 +5,8 @@ struct queueNode {
 
 class queue {
 private:
-	queueNode *front, *rear;
+	queueNode *_front, *_rear;
+	int _size;
 public:
 	queue(); //default конструктор
 	queue(const queue &other); //copy конструктор
