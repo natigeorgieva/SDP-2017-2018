@@ -17,5 +17,5 @@ public:
 	void pop(); //изтрива последния вкаран елемент
 	int front(); //показва елементa най-отпред
 	int back(); //показва елемента най-отзад
-	friend std::ostream &operator<< (ostream &output, const dynamicStack &other);
+	friend std::ostream &operator<< (ostream &output, const queue &other);
 };
